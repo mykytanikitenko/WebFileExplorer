@@ -1,0 +1,13 @@
+{
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "jquery-validation": "1.14.0",
+    "jquery-validation-unobtrusive": "3.2.6",
+    "angular": "^1.5.8",
+    "semantic-ui": "^2.2.4"
+  },
+  "resolutions": {
+    "angular": "^1.5.8"
+  }
+}

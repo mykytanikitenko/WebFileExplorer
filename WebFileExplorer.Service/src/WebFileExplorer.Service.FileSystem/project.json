@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "system.io.filesystem.driveinfo": "4.0.0",
+    "System.Linq.Parallel": "4.0.0",
+    "WebFileExplorer.Service.Core": "1.0.0-*",
+    "WebFileExplorer.ServiceDomain": "1.0.0-*",
+    "Autofac": "4.1.0"
+  },
+
+  "frameworks": {
+    "net46": {}
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Nancy": "1.4.3",
+    "Nancy.Hosting.Self": "1.4.1",
+    "Nancy.Bootstrappers.Autofac": "1.4.1",
+    "Newtonsoft.Json": "9.0.1",
+    "Nancy.Serialization.JsonNet": "1.4.1",
+    "WebFileExplorer.Service.Core": "1.0.0-*",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0",
+    "WebFileExplorer.Service.FileSystem": "1.0.0-*",
+    "WebFileExplorer.Caching": "1.0.0-*"
+  },
+  "frameworks": {
+    "net46": {}
+  }
+}

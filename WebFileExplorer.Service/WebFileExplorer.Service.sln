@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B1A6B69-69A7-4F32-9B4A-7BAB99982128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{284F9DC6-B956-4267-A309-AFE574EC4BEB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebFileExplorer.Service", "src\WebFileExplorer.Service\WebFileExplorer.Service.xproj", "{80B073AF-D027-4C59-9A51-D0CA34F8AC40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "runner", "runner", "{25C606AC-FADC-4784-820A-C2F8BC7164E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{9520A090-B576-496E-A730-0A48F66C12DA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebFileExplorer.Service.Core", "src\WebFileExplorer.Service.Core\WebFileExplorer.Service.Core.xproj", "{B9C94742-1DFD-48A8-8D8A-0A9C81DBD482}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{D372F4C6-CC43-47F4-9D76-7CB5C1D9465E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{498BDAB0-434A-46B3-800B-D73DAA6CB516}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebFileExplorer.Service.REST", "src\WebFileExplorer.Service.REST\WebFileExplorer.Service.REST.xproj", "{9282CA30-5C51-4323-87E5-725AF0D9D0C8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebFileExplorer.Service.Domain", "..\WebFileExplorer.ServiceDomain\WebFileExplorer.ServiceDomain\WebFileExplorer.Service.Domain.xproj", "{53AD4588-D2AE-4D2E-BBD4-66EA00A48FEA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebFileExplorer.Service.FileSystem", "src\WebFileExplorer.Service.FileSystem\WebFileExplorer.Service.FileSystem.xproj", "{0BFE003A-A252-4503-850A-7FA07C0E9242}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebFileExplorer.Caching", "WebFileExplorer.Caching\WebFileExplorer.Caching.xproj", "{A32F2822-26ED-4891-B3E7-4B35DCAB971D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B073AF-D027-4C59-9A51-D0CA34F8AC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B073AF-D027-4C59-9A51-D0CA34F8AC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B073AF-D027-4C59-9A51-D0CA34F8AC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B073AF-D027-4C59-9A51-D0CA34F8AC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C94742-1DFD-48A8-8D8A-0A9C81DBD482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C94742-1DFD-48A8-8D8A-0A9C81DBD482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C94742-1DFD-48A8-8D8A-0A9C81DBD482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C94742-1DFD-48A8-8D8A-0A9C81DBD482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9282CA30-5C51-4323-87E5-725AF0D9D0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9282CA30-5C51-4323-87E5-725AF0D9D0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9282CA30-5C51-4323-87E5-725AF0D9D0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9282CA30-5C51-4323-87E5-725AF0D9D0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AD4588-D2AE-4D2E-BBD4-66EA00A48FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AD4588-D2AE-4D2E-BBD4-66EA00A48FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AD4588-D2AE-4D2E-BBD4-66EA00A48FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AD4588-D2AE-4D2E-BBD4-66EA00A48FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BFE003A-A252-4503-850A-7FA07C0E9242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BFE003A-A252-4503-850A-7FA07C0E9242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BFE003A-A252-4503-850A-7FA07C0E9242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BFE003A-A252-4503-850A-7FA07C0E9242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32F2822-26ED-4891-B3E7-4B35DCAB971D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32F2822-26ED-4891-B3E7-4B35DCAB971D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32F2822-26ED-4891-B3E7-4B35DCAB971D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32F2822-26ED-4891-B3E7-4B35DCAB971D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80B073AF-D027-4C59-9A51-D0CA34F8AC40} = {25C606AC-FADC-4784-820A-C2F8BC7164E0}
+		{25C606AC-FADC-4784-820A-C2F8BC7164E0} = {1B1A6B69-69A7-4F32-9B4A-7BAB99982128}
+		{9520A090-B576-496E-A730-0A48F66C12DA} = {1B1A6B69-69A7-4F32-9B4A-7BAB99982128}
+		{B9C94742-1DFD-48A8-8D8A-0A9C81DBD482} = {498BDAB0-434A-46B3-800B-D73DAA6CB516}
+		{D372F4C6-CC43-47F4-9D76-7CB5C1D9465E} = {1B1A6B69-69A7-4F32-9B4A-7BAB99982128}
+		{498BDAB0-434A-46B3-800B-D73DAA6CB516} = {1B1A6B69-69A7-4F32-9B4A-7BAB99982128}
+		{9282CA30-5C51-4323-87E5-725AF0D9D0C8} = {9520A090-B576-496E-A730-0A48F66C12DA}
+		{53AD4588-D2AE-4D2E-BBD4-66EA00A48FEA} = {D372F4C6-CC43-47F4-9D76-7CB5C1D9465E}
+		{0BFE003A-A252-4503-850A-7FA07C0E9242} = {D372F4C6-CC43-47F4-9D76-7CB5C1D9465E}
+		{A32F2822-26ED-4891-B3E7-4B35DCAB971D} = {D372F4C6-CC43-47F4-9D76-7CB5C1D9465E}
+	EndGlobalSection
+EndGlobal

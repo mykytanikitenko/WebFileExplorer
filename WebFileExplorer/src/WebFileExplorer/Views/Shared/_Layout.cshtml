@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebFileExplorer</title>
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/lib/semantic-ui/dist/semantic.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+</head>
+<body ng-app="fileExplorerApp" ng-cloak>
+    <div class="ui inverted menu">
+        <div class="ui container">
+            <a href="#" class="header item">
+                <i class="world icon"></i> WebFileExplorer
+            </a>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <environment names="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/semantic-ui/dist/semantic.js"></script>
+        <script src="~/lib/angular/angular.js"></script>
+        <script src="~/js/file.explorer.app.js"></script>
+        <script src="~/js/polyfills/String.endsWith.polyfill.js"></script>
+        <script src="~/js/polyfills/global.base64.polyfill.js"></script>
+        <script src="~/js/services/file.explorer.promise.service.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("scripts", required: true)
+</body>
+</html>

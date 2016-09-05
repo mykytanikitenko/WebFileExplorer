@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true,
+    "copyToOutput": {
+      "includeFiles": [ "appsettings.json" ]
+    }
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.DependencyModel": "1.0.0",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0",
+    "Autofac": "4.1.0",
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0",
+    "Microsoft.Extensions.Configuration": "1.0.0",
+    "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0",
+    "WebFileExplorer.Service.Core": "1.0.0-*",
+    "WebFileExplorer.Service.REST": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "net46": {
+      "frameworkAssemblies": {
+      }
+    }
+  },
+
+  "runtimes": {
+    "win7-x64": {},
+    "win7-x86": {},
+    "win81-x64": {},
+    "win81-x86": {},
+    "win10-x64": {},
+    "win10-x86": {}
+  }
+}
